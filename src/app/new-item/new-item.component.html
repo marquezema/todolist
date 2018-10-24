@@ -1,0 +1,7 @@
+<form (ngSubmit)="onSubmit()" [formGroup]="newItemForm">
+	<legend style="text-align: center;">Formulario</legend>
+		<label style="margin-right: 5%;">* Nombre de item: </label>
+		<input type="text" formControlName="name">
+	<br>
+	<button type="submit" >Guardar</button>
+</form>
